@@ -1,0 +1,38 @@
+@font-face {
+   font-family: Mickey;
+   src: url('fonts/mickey-webfont.woff');
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: url('img/memory.jpg')top no-repeat fixed #333;
+	background-size: cover;
+}
+
+#card {
+	width: 505px;
+	margin: 0 auto;
+	border-left: 3px solid white;
+	border-bottom: 3px solid white;
+	overflow: hidden;
+	.card {
+		cursor: pointer;
+		float: left;
+		height: 120px;
+		position: relative;
+		border: 3px solid white;
+		border-bottom: none;
+		border-left: none;
+		.card-hide {
+			background: black;
+			height: 120px;
+			width:120px;
+			position: absolute;
+		}
+		img {
+			height: 120px;
+			width:120px;
+		}
+	}
+}
